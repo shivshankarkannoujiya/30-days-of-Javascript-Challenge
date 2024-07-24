@@ -28,8 +28,12 @@ const library = {
 // console.log(booksTitle);
 
 
-for (const key in library.books) {
-    console.log(`Title : ${library.books[key].title}`);
-    console.log(`Author : ${library.books[key].Author}`);
-    console.log(`Published : ${library.books[key].yearPublished}`);
-}
+// for (const key in library.books) {
+//     console.log(`Title : ${library.books[key].title}`);
+//     console.log(`Author : ${library.books[key].Author}`);
+//     console.log(`Published : ${library.books[key].yearPublished}`);
+// }
+
+// console.log(Object.keys(library.books));
+// console.log(Object.values(library.books));
+// console.log(Object.values(library.books[0]));
